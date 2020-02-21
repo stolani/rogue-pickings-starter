@@ -1,0 +1,187 @@
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+	html {
+    font-size:16px;
+}
+
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1em;
+}
+
+.container{
+	max-width:75em;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 1.875em;
+}
+h2 {
+    font-size:1.5em;
+}
+h3 {
+	font-size:1.125em;
+}
+h4 {
+	font-size:0.75em;
+}
+
+p {
+	font-size:0.875em;
+	line-height:1.313em;
+    padding: 0 1.875em;
+}
+
+/*The widths are in a percentage!*/
+header {
+	height:6.875em;
+	border-bottom: 0.1875em solid #77a466;
+	margin: 0 auto;
+	display: flex;
+    justify-content: center;
+  	align-items: center;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding: 2.375em 0;
+}
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	float: right;
+	padding: 2.875em 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size:0.875em;
+	padding: 0 0.625em;
+	display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	clear: both;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.main-image {
+	height: auto;
+	float: left;
+}
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	height: auto;
+	float: left;
+}
+.main-title h3 {
+	text-align: left;
+	padding: 0.3125em 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 1em;
+	line-height:1.563em;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+	height: auto;
+	float: left;
+	border-top: 0.063em solid #eee;
+}
+
+.section-one h4 {
+	padding: 0.625em 0;
+}
+
+.section-two {
+	border-left: .006em solid #eee;
+	border-right: .006em solid #eee;
+}
+
+.section-two h4,
+.section-three h4 {
+	padding:0.635em 1.875em;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 0.625em 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height:1.313em;
+}
+
+.address {
+	font-size: 1em;
+	line-height:1.5em;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	height:3.125em;
+	border-top: 0.186em solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.875em;
+}
